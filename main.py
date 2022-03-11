@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 from webpages import home_page, retina_upload_page, derma_upload_page
 import numpy as np
-from PIL import Image
 import cv2
 from tensorflow import keras
 import os
